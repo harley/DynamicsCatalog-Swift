@@ -348,7 +348,7 @@
                     <navigationItem key="navigationItem" title="Attachments + Collision" id="OPx-Pe-IRa"/>
                     <connections>
                         <outlet property="attachmentView" destination="riP-0C-qBN" id="ifT-sf-X2P"/>
-                        <outlet property="square1" destination="dW4-ke-vWc" id="jDJ-dn-s3e"/>
+                        <outlet property="square1" destination="hGv-Jl-e3Q" id="Tqa-ql-Z8i"/>
                         <outlet property="square1AttachmentView" destination="EB3-be-Jai" id="YgJ-3e-SdG"/>
                     </connections>
                 </viewController>
