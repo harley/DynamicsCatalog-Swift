@@ -276,7 +276,7 @@
         <!--Collision + Gravity-->
         <scene sceneID="vz0-rP-0Vv">
             <objects>
-                <viewController id="5g6-Az-X6I" customClass="APLCollisionGravityViewController" sceneMemberID="viewController">
+                <viewController id="5g6-Az-X6I" customClass="APLCollisionGravityViewController" customModule="DynamicsCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vjx-cf-Grd" userLabel="View" customClass="APLDecorationView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -294,7 +294,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Collision + Gravity" id="0gC-BL-m0N"/>
                     <connections>
-                        <outlet property="square1" destination="WqW-Zw-02c" id="Pct-kR-P9V"/>
+                        <outlet property="square1" destination="WqW-Zw-02c" id="TkA-ag-q60"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OhD-LN-RMU" sceneMemberID="firstResponder"/>

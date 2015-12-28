@@ -15,7 +15,6 @@
 		2806C653175BE66C00827B6B /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806C652175BE66C00827B6B /* APLAppDelegate.m */; };
 		2806C656175BE66C00827B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2806C654175BE66C00827B6B /* Main.storyboard */; };
 		2806C65B175BE66C00827B6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2806C65A175BE66C00827B6B /* Images.xcassets */; };
-		2806C67C175BEB2B00827B6B /* APLCollisionGravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806C67B175BEB2B00827B6B /* APLCollisionGravityViewController.m */; };
 		2806C67F175BEC5B00827B6B /* APLAttachmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806C67E175BEC5B00827B6B /* APLAttachmentsViewController.m */; };
 		2806C682175BF05700827B6B /* APLCollisionsGravitySpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806C681175BF05700827B6B /* APLCollisionsGravitySpringViewController.m */; };
 		2806C685175BF34C00827B6B /* APLSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806C684175BF34C00827B6B /* APLSnapViewController.m */; };
@@ -25,6 +24,7 @@
 		770D1CC017BB45B3004181CC /* APLCompositeBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D1CBF17BB45B3004181CC /* APLCompositeBehaviorViewController.m */; };
 		770D1CC317BB4733004181CC /* APLPendulumBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D1CC217BB4733004181CC /* APLPendulumBehavior.m */; };
 		9DADF6291C31115700AACC76 /* APLGravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADF6281C31115700AACC76 /* APLGravityViewController.swift */; };
+		9DADF62B1C31146C00AACC76 /* APLCollisionGravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADF62A1C31146C00AACC76 /* APLCollisionGravityViewController.swift */; };
 		D03AB81517C29858000F8D54 /* APLDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03AB81417C29858000F8D54 /* APLDecorationView.m */; };
 		D0E853BA17C5349F00515147 /* APLCustomDynamicItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E853B917C5349F00515147 /* APLCustomDynamicItemViewController.m */; };
 		D0E853BD17C539C100515147 /* APLPositionToBoundsMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E853BC17C539C100515147 /* APLPositionToBoundsMapping.m */; };
@@ -43,8 +43,6 @@
 		2806C652175BE66C00827B6B /* APLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLAppDelegate.m; sourceTree = "<group>"; };
 		2806C655175BE66C00827B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2806C65A175BE66C00827B6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2806C67A175BEB2B00827B6B /* APLCollisionGravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCollisionGravityViewController.h; sourceTree = "<group>"; };
-		2806C67B175BEB2B00827B6B /* APLCollisionGravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCollisionGravityViewController.m; sourceTree = "<group>"; };
 		2806C67D175BEC5B00827B6B /* APLAttachmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLAttachmentsViewController.h; sourceTree = "<group>"; };
 		2806C67E175BEC5B00827B6B /* APLAttachmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLAttachmentsViewController.m; sourceTree = "<group>"; };
 		2806C680175BF05700827B6B /* APLCollisionsGravitySpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCollisionsGravitySpringViewController.h; sourceTree = "<group>"; };
@@ -64,6 +62,7 @@
 		770D1CC217BB4733004181CC /* APLPendulumBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLPendulumBehavior.m; sourceTree = "<group>"; };
 		9DADF6271C31115700AACC76 /* DynamicsCatalog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicsCatalog-Bridging-Header.h"; sourceTree = "<group>"; };
 		9DADF6281C31115700AACC76 /* APLGravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APLGravityViewController.swift; sourceTree = "<group>"; };
+		9DADF62A1C31146C00AACC76 /* APLCollisionGravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APLCollisionGravityViewController.swift; sourceTree = "<group>"; };
 		D03AB81317C29858000F8D54 /* APLDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLDecorationView.h; sourceTree = "<group>"; };
 		D03AB81417C29858000F8D54 /* APLDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLDecorationView.m; sourceTree = "<group>"; };
 		D0E853B817C5349F00515147 /* APLCustomDynamicItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCustomDynamicItemViewController.h; sourceTree = "<group>"; };
@@ -118,8 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				9DADF6281C31115700AACC76 /* APLGravityViewController.swift */,
-				2806C67A175BEB2B00827B6B /* APLCollisionGravityViewController.h */,
-				2806C67B175BEB2B00827B6B /* APLCollisionGravityViewController.m */,
 				2806C67D175BEC5B00827B6B /* APLAttachmentsViewController.h */,
 				2806C67E175BEC5B00827B6B /* APLAttachmentsViewController.m */,
 				2806C680175BF05700827B6B /* APLCollisionsGravitySpringViewController.h */,
@@ -141,6 +138,7 @@
 				D0E853BB17C539C100515147 /* APLPositionToBoundsMapping.h */,
 				D0E853BC17C539C100515147 /* APLPositionToBoundsMapping.m */,
 				2806C654175BE66C00827B6B /* Main.storyboard */,
+				9DADF62A1C31146C00AACC76 /* APLCollisionGravityViewController.swift */,
 				2806C651175BE66C00827B6B /* APLAppDelegate.h */,
 				2806C652175BE66C00827B6B /* APLAppDelegate.m */,
 				D03AB81317C29858000F8D54 /* APLDecorationView.h */,
@@ -230,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2806C67C175BEB2B00827B6B /* APLCollisionGravityViewController.m in Sources */,
+				9DADF62B1C31146C00AACC76 /* APLCollisionGravityViewController.swift in Sources */,
 				2806C685175BF34C00827B6B /* APLSnapViewController.m in Sources */,
 				D0E853BD17C539C100515147 /* APLPositionToBoundsMapping.m in Sources */,
 				28E53D59175BFABC009B735C /* APLContinuousPushViewController.m in Sources */,
