@@ -304,7 +304,7 @@
         <!--Attachments + Collision-->
         <scene sceneID="MBY-VJ-cRj">
             <objects>
-                <viewController id="vOt-tT-63e" customClass="APLAttachmentsViewController" sceneMemberID="viewController">
+                <viewController id="vOt-tT-63e" customClass="APLAttachmentsViewController" customModule="DynamicsCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bgG-67-lrD" userLabel="View" customClass="APLDecorationView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -344,23 +344,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="Qmq-o8-E1D" appends="YES" id="K9P-sp-YgT"/>
-                            <outletCollection property="gestureRecognizers" destination="Qmq-o8-E1D" appends="YES" id="QUC-LZ-pvn"/>
-                            <outletCollection property="gestureRecognizers" destination="Qmq-o8-E1D" appends="YES" id="Tam-Ef-1cN"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Attachments + Collision" id="OPx-Pe-IRa"/>
                     <connections>
-                        <outlet property="attachmentView" destination="riP-0C-qBN" id="w66-2z-M7A"/>
-                        <outlet property="square1" destination="hGv-Jl-e3Q" id="8EE-xw-UZa"/>
-                        <outlet property="square1AttachmentView" destination="EB3-be-Jai" id="lRq-9U-LMh"/>
+                        <outlet property="attachmentView" destination="riP-0C-qBN" id="ifT-sf-X2P"/>
+                        <outlet property="square1" destination="dW4-ke-vWc" id="jDJ-dn-s3e"/>
+                        <outlet property="square1AttachmentView" destination="EB3-be-Jai" id="YgJ-3e-SdG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tj0-2U-rar" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="Qmq-o8-E1D">
                     <connections>
-                        <action selector="handleAttachmentGesture:" destination="vOt-tT-63e" id="of2-kG-Md8"/>
+                        <action selector="handleAttachmentGesture:" destination="vOt-tT-63e" id="4fD-Ga-O5K"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
