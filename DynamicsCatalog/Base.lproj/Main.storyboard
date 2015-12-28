@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A569" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="pJO-9a-Bg9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="pJO-9a-Bg9">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - UIKit Dynamics Catalog-->
+        <!--UIKit Dynamics Catalog-->
         <scene sceneID="gc5-Gx-YzA">
             <objects>
                 <tableViewController id="OCt-XP-LHc" sceneMemberID="viewController">
@@ -26,7 +27,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -46,7 +47,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -66,7 +67,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -86,7 +87,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -106,7 +107,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -126,7 +127,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -146,7 +147,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -166,7 +167,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -186,7 +187,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -206,7 +207,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -229,10 +230,10 @@
             </objects>
             <point key="canvasLocation" x="491" y="-63"/>
         </scene>
-        <!--Gravity View Controller - Gravity-->
+        <!--Gravity-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="APLGravityViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="APLGravityViewController" customModule="DynamicsCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" userLabel="View" customClass="APLDecorationView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -246,7 +247,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Gravity" id="4Bt-EQ-ErD"/>
                     <connections>
-                        <outlet property="square1" destination="TUY-iL-6nE" id="J9K-dC-BVa"/>
+                        <outlet property="square1" destination="TUY-iL-6nE" id="dDN-GA-bMJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -272,7 +273,7 @@
             </objects>
             <point key="canvasLocation" x="36" y="46"/>
         </scene>
-        <!--Collision Gravity View Controller - Collision + Gravity-->
+        <!--Collision + Gravity-->
         <scene sceneID="vz0-rP-0Vv">
             <objects>
                 <viewController id="5g6-Az-X6I" customClass="APLCollisionGravityViewController" sceneMemberID="viewController">
@@ -300,7 +301,7 @@
             </objects>
             <point key="canvasLocation" x="1041" y="257"/>
         </scene>
-        <!--Attachments View Controller - Attachments + Collision-->
+        <!--Attachments + Collision-->
         <scene sceneID="MBY-VJ-cRj">
             <objects>
                 <viewController id="vOt-tT-63e" customClass="APLAttachmentsViewController" sceneMemberID="viewController">
@@ -328,7 +329,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Drag anywhere to move the square.">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -365,7 +366,7 @@
             </objects>
             <point key="canvasLocation" x="1443" y="-487"/>
         </scene>
-        <!--Collisions Gravity Spring View Controller - Collisions + Gravity + Spring-->
+        <!--Collisions + Gravity + Spring-->
         <scene sceneID="f75-JQ-wZV">
             <objects>
                 <viewController id="VGp-By-5TG" customClass="APLCollisionsGravitySpringViewController" sceneMemberID="viewController">
@@ -397,7 +398,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Drag anywhere to move the square.">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -433,7 +434,7 @@
             </objects>
             <point key="canvasLocation" x="1443" y="257"/>
         </scene>
-        <!--Snap View Controller - Snap-->
+        <!--Snap-->
         <scene sceneID="AYw-va-gbL">
             <objects>
                 <viewController id="JWv-Y1-ddg" customClass="APLSnapViewController" sceneMemberID="viewController">
@@ -447,7 +448,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Tap anywhere to move the square.">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -479,7 +480,7 @@
             </objects>
             <point key="canvasLocation" x="1849" y="-487"/>
         </scene>
-        <!--Continuous Push View Controller - Continuous Push + Collision-->
+        <!--Continuous Push + Collision-->
         <scene sceneID="6pc-Cl-fAN">
             <objects>
                 <viewController id="Or4-MP-807" customClass="APLContinuousPushViewController" sceneMemberID="viewController">
@@ -497,7 +498,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Tap anywhere to create a force.">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -530,7 +531,7 @@
             </objects>
             <point key="canvasLocation" x="2273" y="-487"/>
         </scene>
-        <!--Instantaneous Push View Controller - Instantaneous Push + Collision-->
+        <!--Instantaneous Push + Collision-->
         <scene sceneID="PxF-8m-LFF">
             <objects>
                 <viewController id="11d-Kl-Lai" customClass="APLInstantaneousPushViewController" sceneMemberID="viewController">
@@ -548,7 +549,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Tap anywhere to create a force.">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -581,7 +582,7 @@
             </objects>
             <point key="canvasLocation" x="1849" y="257"/>
         </scene>
-        <!--Item Properties View Controller - Item Properties-->
+        <!--Item Properties-->
         <scene sceneID="RzA-jZ-8M5">
             <objects>
                 <viewController id="YXz-ld-Wu3" customClass="APLItemPropertiesViewController" sceneMemberID="viewController">
@@ -620,7 +621,7 @@
             </objects>
             <point key="canvasLocation" x="2273" y="257"/>
         </scene>
-        <!--Custom Dynamic Item View Controller - Custom Dynamic Item-->
+        <!--Custom Dynamic Item-->
         <scene sceneID="YO1-Ha-8dS">
             <objects>
                 <viewController id="Ccf-ap-Mbs" customClass="APLCustomDynamicItemViewController" sceneMemberID="viewController">
@@ -649,7 +650,7 @@
             </objects>
             <point key="canvasLocation" x="2701" y="257"/>
         </scene>
-        <!--Composite Behavior View Controller - Pendulum (Composite Behavior)-->
+        <!--Pendulum (Composite Behavior)-->
         <scene sceneID="w8q-vv-K6i">
             <objects>
                 <viewController id="gRE-np-yy1" customClass="APLCompositeBehaviorViewController" sceneMemberID="viewController">
@@ -674,7 +675,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Drag the square to swing.">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="Chalkduster"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -710,9 +711,4 @@
         <image name="Floor" width="568" height="4"/>
         <image name="Origin" width="10" height="10"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>
