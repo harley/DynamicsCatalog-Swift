@@ -15,7 +15,6 @@
 		2806C653175BE66C00827B6B /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806C652175BE66C00827B6B /* APLAppDelegate.m */; };
 		2806C656175BE66C00827B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2806C654175BE66C00827B6B /* Main.storyboard */; };
 		2806C65B175BE66C00827B6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2806C65A175BE66C00827B6B /* Images.xcassets */; };
-		2806C685175BF34C00827B6B /* APLSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806C684175BF34C00827B6B /* APLSnapViewController.m */; };
 		28E53D56175BF6EE009B735C /* APLInstantaneousPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E53D55175BF6EE009B735C /* APLInstantaneousPushViewController.m */; };
 		28E53D59175BFABC009B735C /* APLContinuousPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E53D58175BFABC009B735C /* APLContinuousPushViewController.m */; };
 		28E53D5C175C07C4009B735C /* APLItemPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E53D5B175C07C4009B735C /* APLItemPropertiesViewController.m */; };
@@ -25,6 +24,7 @@
 		9DADF62B1C31146C00AACC76 /* APLCollisionGravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADF62A1C31146C00AACC76 /* APLCollisionGravityViewController.swift */; };
 		9DADF62D1C3117DD00AACC76 /* APLAttachmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADF62C1C3117DD00AACC76 /* APLAttachmentsViewController.swift */; };
 		9DADF6311C31248600AACC76 /* CollisionsGravitySpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADF6301C31248600AACC76 /* CollisionsGravitySpringViewController.swift */; };
+		9DADF6331C312A2200AACC76 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADF6321C312A2200AACC76 /* SnapViewController.swift */; };
 		D03AB81517C29858000F8D54 /* APLDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03AB81417C29858000F8D54 /* APLDecorationView.m */; };
 		D0E853BA17C5349F00515147 /* APLCustomDynamicItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E853B917C5349F00515147 /* APLCustomDynamicItemViewController.m */; };
 		D0E853BD17C539C100515147 /* APLPositionToBoundsMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E853BC17C539C100515147 /* APLPositionToBoundsMapping.m */; };
@@ -43,8 +43,6 @@
 		2806C652175BE66C00827B6B /* APLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLAppDelegate.m; sourceTree = "<group>"; };
 		2806C655175BE66C00827B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2806C65A175BE66C00827B6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2806C683175BF34C00827B6B /* APLSnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSnapViewController.h; sourceTree = "<group>"; };
-		2806C684175BF34C00827B6B /* APLSnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSnapViewController.m; sourceTree = "<group>"; };
 		28E53D53175BF68B009B735C /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		28E53D54175BF6EE009B735C /* APLInstantaneousPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLInstantaneousPushViewController.h; sourceTree = "<group>"; };
 		28E53D55175BF6EE009B735C /* APLInstantaneousPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLInstantaneousPushViewController.m; sourceTree = "<group>"; };
@@ -61,6 +59,7 @@
 		9DADF62A1C31146C00AACC76 /* APLCollisionGravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APLCollisionGravityViewController.swift; sourceTree = "<group>"; };
 		9DADF62C1C3117DD00AACC76 /* APLAttachmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APLAttachmentsViewController.swift; sourceTree = "<group>"; };
 		9DADF6301C31248600AACC76 /* CollisionsGravitySpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionsGravitySpringViewController.swift; sourceTree = "<group>"; };
+		9DADF6321C312A2200AACC76 /* SnapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		D03AB81317C29858000F8D54 /* APLDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLDecorationView.h; sourceTree = "<group>"; };
 		D03AB81417C29858000F8D54 /* APLDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLDecorationView.m; sourceTree = "<group>"; };
 		D0E853B817C5349F00515147 /* APLCustomDynamicItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCustomDynamicItemViewController.h; sourceTree = "<group>"; };
@@ -117,8 +116,6 @@
 				9DADF6281C31115700AACC76 /* APLGravityViewController.swift */,
 				9DADF62C1C3117DD00AACC76 /* APLAttachmentsViewController.swift */,
 				9DADF62A1C31146C00AACC76 /* APLCollisionGravityViewController.swift */,
-				2806C683175BF34C00827B6B /* APLSnapViewController.h */,
-				2806C684175BF34C00827B6B /* APLSnapViewController.m */,
 				28E53D54175BF6EE009B735C /* APLInstantaneousPushViewController.h */,
 				28E53D55175BF6EE009B735C /* APLInstantaneousPushViewController.m */,
 				28E53D57175BFABC009B735C /* APLContinuousPushViewController.h */,
@@ -134,6 +131,7 @@
 				D0E853BB17C539C100515147 /* APLPositionToBoundsMapping.h */,
 				D0E853BC17C539C100515147 /* APLPositionToBoundsMapping.m */,
 				2806C654175BE66C00827B6B /* Main.storyboard */,
+				9DADF6321C312A2200AACC76 /* SnapViewController.swift */,
 				9DADF6301C31248600AACC76 /* CollisionsGravitySpringViewController.swift */,
 				2806C651175BE66C00827B6B /* APLAppDelegate.h */,
 				2806C652175BE66C00827B6B /* APLAppDelegate.m */,
@@ -225,9 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DADF62B1C31146C00AACC76 /* APLCollisionGravityViewController.swift in Sources */,
-				2806C685175BF34C00827B6B /* APLSnapViewController.m in Sources */,
 				D0E853BD17C539C100515147 /* APLPositionToBoundsMapping.m in Sources */,
 				28E53D59175BFABC009B735C /* APLContinuousPushViewController.m in Sources */,
+				9DADF6331C312A2200AACC76 /* SnapViewController.swift in Sources */,
 				28E53D5C175C07C4009B735C /* APLItemPropertiesViewController.m in Sources */,
 				2806C653175BE66C00827B6B /* APLAppDelegate.m in Sources */,
 				770D1CC017BB45B3004181CC /* APLCompositeBehaviorViewController.m in Sources */,

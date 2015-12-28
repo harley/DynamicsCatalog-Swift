@@ -432,7 +432,7 @@
         <!--Snap-->
         <scene sceneID="AYw-va-gbL">
             <objects>
-                <viewController id="JWv-Y1-ddg" customClass="APLSnapViewController" sceneMemberID="viewController">
+                <viewController id="JWv-Y1-ddg" customClass="SnapViewController" customModule="DynamicsCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Un-CU-LOf" userLabel="View" customClass="APLDecorationView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
