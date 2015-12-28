@@ -18,7 +18,7 @@ class APLAttachmentsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let animator = UIDynamicAnimator()
+        let animator = UIDynamicAnimator(referenceView: view)
 
         // Creates collision boundaries from the bounds of the dynamic animator's
         let collisionBehavior = UICollisionBehavior(items: [square1])

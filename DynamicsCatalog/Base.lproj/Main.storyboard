@@ -364,7 +364,7 @@
         <!--Collisions + Gravity + Spring-->
         <scene sceneID="f75-JQ-wZV">
             <objects>
-                <viewController id="VGp-By-5TG" customClass="APLCollisionsGravitySpringViewController" sceneMemberID="viewController">
+                <viewController id="VGp-By-5TG" customClass="CollisionsGravitySpringViewController" customModule="DynamicsCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wFX-2X-mez" userLabel="View" customClass="APLDecorationView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -410,20 +410,20 @@
                     </view>
                     <navigationItem key="navigationItem" title="Collisions + Gravity + Spring" id="byw-Ev-tjk"/>
                     <connections>
-                        <outlet property="attachmentView" destination="w5x-WT-yWS" id="lbM-qk-pxb"/>
-                        <outlet property="square1" destination="Iv8-5s-jby" id="L6v-v3-u9a"/>
-                        <outlet property="square1AttachmentView" destination="a1a-mf-Wzn" id="tDg-5v-hUS"/>
+                        <outlet property="attachmentView" destination="w5x-WT-yWS" id="FJh-uh-0ju"/>
+                        <outlet property="square1" destination="Iv8-5s-jby" id="ygn-sy-cz4"/>
+                        <outlet property="square1AttachmentView" destination="a1a-mf-Wzn" id="Bvu-hG-DG7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBo-Q2-kMe" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="r3J-1Q-bo3">
                     <connections>
-                        <action selector="handleSpringAttachmentGesture:" destination="VGp-By-5TG" id="jk5-tc-iB5"/>
+                        <action selector="handleSpringAttachmentGesture:" destination="VGp-By-5TG" id="MLg-GB-LR2"/>
                     </connections>
                 </panGestureRecognizer>
                 <tapGestureRecognizer id="HcY-qI-mGS">
                     <connections>
-                        <action selector="handleSpringAttachmentGesture:" destination="VGp-By-5TG" id="uVV-9g-n6g"/>
+                        <action selector="handleSpringAttachmentGesture:" destination="VGp-By-5TG" id="gVD-nP-2WG"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
